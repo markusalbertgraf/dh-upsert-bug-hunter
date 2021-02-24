@@ -1,0 +1,6 @@
+{:paths ["src" "resources" "classes"]
+ :deps  {org.clojure/clojure    {:mvn/version "1.10.2"}
+         io.replikativ/datahike {:mvn/version "0.3.3"}}
+ :aliases
+ {:outdated {:extra-deps {antq {:mvn/version "RELEASE"}}
+             :main-opts  ["-m" "antq.core"]}}}
